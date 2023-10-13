@@ -26,6 +26,9 @@ body {
   grid-template-columns: 281px auto;
   height: 990px;
 }
+input, textarea, button, select {
+  font: inherit;
+}
 figure,
 p,
 h4 {
@@ -376,6 +379,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   position: relative;
   box-shadow: 0px 120.798px 96.6385px rgba(0, 0, 0, 0.01),
     0px 78.295px 56.5961px rgba(0, 0, 0, 0.00759259),
